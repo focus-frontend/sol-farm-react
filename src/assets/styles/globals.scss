@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Lilita One', sans-serif;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #bd542b;
+}

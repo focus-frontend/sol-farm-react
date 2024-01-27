@@ -1,0 +1,23 @@
+.frame {
+  max-width: 442px;
+  padding: 46px 54px 45px;
+  background-image: url('../../assets/images/flowers-frame-bg.png');
+  background-position: center;
+  background-size: contain;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    color: #773a20;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  .timer {
+    color: #72a613;
+    font-size: 100px;
+    font-weight: 400;
+  }
+}

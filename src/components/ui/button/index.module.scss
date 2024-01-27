@@ -1,0 +1,26 @@
+.btn {
+  padding: 20px 37px;
+  color: #d8801c;
+  font-size: 32px;
+  font-weight: 400;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: color 0.3s;
+
+  &.small {
+    background-image: url('../../../assets/images/btn-small-bg.svg');
+    padding: 20px 32px;
+  }
+
+  &.big {
+    background-image: url('../../../assets/images/btn-big-bg.svg');
+    padding: 20px 37px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: #bd542b;
+    transition: color 0.3s;
+  }
+}

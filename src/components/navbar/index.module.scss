@@ -1,0 +1,36 @@
+.navbar {
+  padding: 13.8px 64px 29.81px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('../../assets/images/navbar-bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+
+  .logo {
+    display: block;
+
+    img {
+      width: 128px;
+      height: 72.39px;
+    }
+  }
+
+  .links {
+    display: flex;
+    gap: 0 55px;
+
+    .link {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #d8801c;
+        transition: color 0.3s;
+      }
+    }
+  }
+}
