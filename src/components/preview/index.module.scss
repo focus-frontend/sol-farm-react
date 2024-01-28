@@ -135,13 +135,22 @@
     .row {
       grid-template-columns: 1fr;
     }
+
+    .content {
+      margin-top: 30px;
+    }
   }
 }
 
 @media (max-width: 430px) {
   .header {
-    .image img {
-      width: 100%;
+    .image {
+      display: grid;
+
+      img {
+        width: 75%;
+        margin: 0 auto;
+      }
     }
   }
 }
