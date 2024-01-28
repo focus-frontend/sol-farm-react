@@ -84,12 +84,15 @@
 @media (max-width: 1400px) {
   .flowers {
     .description {
-      max-width: 900px;
-      height: 600px;
+      max-width: 870px;
+      height: 590px;
+      padding-left: 120px;
+      padding-right: 120px;
+      font-size: 24px;
 
       .logo {
-        transform: translateY(-31%);
-        width: 463px;
+        transform: translateY(-34%);
+        width: 459px;
         height: auto;
       }
     }
