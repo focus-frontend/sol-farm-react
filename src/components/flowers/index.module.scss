@@ -84,29 +84,37 @@
 @media (max-width: 1400px) {
   .flowers {
     .description {
-      max-width: 870px;
-      height: 590px;
-      padding-left: 120px;
-      padding-right: 120px;
-      font-size: 24px;
+      max-width: 740px;
+      height: 500px;
+      padding-left: 90px;
+      padding-right: 90px;
+      font-size: 18px;
+      line-height: 24px;
 
       .logo {
-        transform: translateY(-34%);
-        width: 459px;
+        transform: translateY(-20%);
+        width: 400px;
         height: auto;
       }
     }
 
+    .flowerone,
+    .flowertwo,
+    .flowerthree {
+      width: 170px;
+      height: auto;
+    }
+
     .flowerone {
-      transform: translate(-10%, -54%);
+      transform: translate(70%, -63%);
     }
 
     .flowertwo {
-      transform: translate(18%, -58%);
+      transform: translate(18%, -65%);
     }
 
     .flowerthree {
-      transform: translate(19%, -10%);
+      transform: translate(-80%, -20%);
     }
   }
 }
