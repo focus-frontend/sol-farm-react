@@ -7,12 +7,16 @@ import LogoImage from '../../assets/images/flowers-description-logo.png'
 import FlowerImage from '../../assets/images/flower.svg'
 
 import cls from './index.module.scss'
+import useOnScreen from '../../hooks/on-screen.hook'
+import Animation from '../animation'
 
 const Flowers: FC = () => {
+  const { inView, ref } = useOnScreen()
+
   return (
-    <div className={cls.wraper}>
+    <Animation className={cls.wraper} inView={inView} delay={100}>
       <Timer className={cls.timer} />
-      <section id='about' className={cls.flowers}>
+      <section id='about' className={cls.flowers} ref={ref}>
         <Container className={cls.container}>
           <img className={cls.flowerone} src={FlowerImage} alt='flower' />
           <img className={cls.flowerthree} src={FlowerImage} alt='flower' />
@@ -32,7 +36,7 @@ const Flowers: FC = () => {
           </div>
         </Container>
       </section>
-    </div>
+    </Animation>
   )
 }
 

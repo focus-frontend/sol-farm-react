@@ -8,7 +8,7 @@ import useOnScreen from '../../hooks/on-screen.hook'
 import cls from './index.module.scss'
 
 const Timer: FC<{ className: string }> = ({ className }) => {
-  const startTimerSeconds = Date.now() + 384.4 * 10000
+  const startTimerSeconds = Date.now() + 90 * 1000
   const { inView, ref } = useOnScreen()
 
   const timerBody = ({ hours, formatted, props }: any) => (

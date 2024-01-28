@@ -317,5 +317,27 @@
       transform: translateY(92%);
       width: 180px;
     }
+
+    .flowerone {
+      transform: translate(-15%, 115%);
+    }
+
+    .flowertwo {
+      transform: translate(20%, 130%);
+    }
+  }
+}
+
+@media (max-width: 340px) {
+  .flowers {
+    .description {
+      font-size: 10px;
+      line-height: 12px;
+
+      .logo {
+        transform: translateY(110%);
+        width: 170px;
+      }
+    }
   }
 }
