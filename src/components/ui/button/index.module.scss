@@ -21,7 +21,7 @@
   &:hover {
     cursor: pointer;
     color: #bd542b;
-    transform: translateX(10px);
+    transform: scale(1.1);
     transition: transform 0.3s, color 0.3s;
   }
 }
