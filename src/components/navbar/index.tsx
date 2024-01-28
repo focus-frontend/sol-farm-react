@@ -16,7 +16,7 @@ const Navbar: FC = () => {
   }, [])
 
   return (
-    <Animation inView={inView} delay={100}>
+    <Animation className={cls.fixed} inView={inView} delay={100}>
       <Container className={cls.container}>
         <nav className={cls.navbar}>
           <Animation inView={inView} delay={100} left={-50}>
