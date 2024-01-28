@@ -24,7 +24,7 @@ const NftItems: FC = () => {
         <Animation inView={inView} delay={100}>
           <div className={cls.slider} ref={ref}>
             <Swiper
-              autoplay={{ delay: 1000, disableOnInteraction: false }}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
               modules={[Autoplay]}
               spaceBetween={50}
               slidesPerView={1}

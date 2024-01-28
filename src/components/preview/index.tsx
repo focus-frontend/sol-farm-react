@@ -16,7 +16,7 @@ const Preview: FC = () => {
   }, [])
 
   return (
-    <header className={cls.header}>
+    <header id='get-award' className={cls.header}>
       <Container>
         <div className={cls.row}>
           <div className={cls.content}>
