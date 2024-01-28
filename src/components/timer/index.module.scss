@@ -4,12 +4,13 @@
 }
 
 .frame {
-  max-width: 442px;
+  max-width: 480px;
   padding: 46px 54px 45px;
   background-image: url('../../assets/images/flowers-frame-bg.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  text-align: center;
 
   .title {
     display: flex;

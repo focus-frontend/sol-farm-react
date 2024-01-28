@@ -14,6 +14,7 @@ const Timer: FC<{ className: string }> = ({ className }) => {
   const timerBody = ({ hours, formatted, props }: any) => (
     <span className={props.className}>
       {hours}:{formatted.minutes}:{formatted.seconds}
+      {/* 0:00:00 */}
     </span>
   )
 
