@@ -6,7 +6,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  transition: color 0.3s;
+  transition: transform 0.3s, color 0.3s;
 
   &.small {
     background-image: url('../../../assets/images/btn-small-bg.svg');
@@ -21,6 +21,7 @@
   &:hover {
     cursor: pointer;
     color: #bd542b;
-    transition: color 0.3s;
+    transform: translateX(10px);
+    transition: transform 0.3s, color 0.3s;
   }
 }

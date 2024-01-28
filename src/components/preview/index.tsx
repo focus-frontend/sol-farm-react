@@ -24,10 +24,7 @@ const Preview: FC = () => {
               NFT.
             </p>
 
-            <div className={cls.btns}>
-              <Button>MINT</Button>
-              <Button big>INSTRUCTION</Button>
-            </div>
+            <Button className={cls.btn}>MINT</Button>
           </div>
           <div className={cls.image}>
             <img src={TreeImage} alt='tree' />

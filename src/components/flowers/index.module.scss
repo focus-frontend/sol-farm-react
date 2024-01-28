@@ -1,3 +1,17 @@
+.wraper {
+  position: relative;
+}
+
+.timer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-29%);
+  z-index: 1;
+}
+
 .flowers {
   margin-top: 41px;
   padding: 300px 0 141px;
@@ -6,12 +20,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
 
   .description {
     padding: 200px 151px 129px;
     background-image: url('../../assets/images/flowers-description-bg.png');
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     max-width: 993px;
     height: 667px;
     margin: 0 auto;
@@ -34,15 +50,6 @@
       width: 554px;
       height: 335px;
     }
-  }
-
-  .timer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    transform: translateY(-30%);
   }
 
   .container {
@@ -71,5 +78,244 @@
     bottom: 0;
     top: unset;
     transform: translate(70%, -50%);
+  }
+}
+
+@media (max-width: 1050px) {
+  .flowers {
+    padding-top: 220px;
+
+    .container {
+      width: 100%;
+    }
+
+    .description {
+      padding-top: 235px;
+      padding-left: 115px;
+      padding-right: 115px;
+      background-size: 100%;
+      font-size: 22px;
+      max-width: 820px;
+      height: 570px;
+
+      .logo {
+        transform: translateY(-26%);
+        width: 420px;
+        height: auto;
+      }
+    }
+
+    .flowerone {
+      transform: translate(-20%, -40%);
+    }
+
+    .flowerthree {
+      transform: translate(20%, 0);
+    }
+
+    .flowerone,
+    .flowertwo,
+    .flowerthree {
+      width: 170px;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .flowers {
+    padding-bottom: 100px;
+    padding-top: 185px;
+
+    .description {
+      padding-top: 150px;
+      font-size: 18px;
+      line-height: 24px;
+
+      .logo {
+        transform: translateY(-16%);
+        width: 380px;
+      }
+    }
+
+    .flowerone,
+    .flowertwo,
+    .flowerthree {
+      width: 120px;
+      height: auto;
+    }
+
+    .flowerthree {
+      transform: translate(0, 70%);
+      left: 0;
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .flowers {
+    .description {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .flowers {
+    .description {
+      padding-top: 190px;
+      padding-left: 90px;
+      padding-right: 90px;
+      height: 500px;
+
+      .logo {
+        transform: translateY(-17%);
+        width: 350px;
+      }
+    }
+
+    .flowerthree {
+      transform: translate(75%, 70%);
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .flowers {
+    padding-bottom: 90px;
+    padding-top: 150px;
+
+    .description {
+      .logo {
+        transform: translateY(-4%);
+        width: 320px;
+      }
+    }
+
+    .flowerthree {
+      transform: translate(75%, 50%);
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .flowers {
+    padding-bottom: 58px;
+    padding-top: 130px;
+
+    .description .logo {
+      transform: translateY(8%);
+      width: 280px;
+    }
+
+    .flowerone,
+    .flowertwo,
+    .flowerthree {
+      width: 90px;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .flowers {
+    padding-bottom: 30px;
+    padding-top: 80px;
+
+    .description {
+      font-size: 14px;
+      line-height: 16px;
+
+      .logo {
+        transform: translateY(25%);
+        width: 260px;
+      }
+    }
+
+    .flowerthree {
+      transform: translate(100%, 15%);
+    }
+
+    .flowerone {
+      transform: translate(0%, 30%);
+    }
+
+    .flowertwo {
+      transform: translate(0%, 10%);
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .flowers {
+    padding-bottom: 0px;
+    padding-top: 60px;
+
+    .description {
+      font-size: 12px;
+      line-height: 15px;
+      padding-left: 70px;
+      padding-right: 70px;
+
+      .logo {
+        transform: translateY(45%);
+        width: 230px;
+      }
+    }
+
+    .flowerthree {
+      transform: translate(100%, -20%);
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .flowers {
+    .flowertwo {
+      transform: translate(20%, 50%);
+    }
+
+    .flowerone {
+      transform: translate(-15%, 63%);
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .flowers {
+    padding-top: 15px;
+
+    .description {
+      font-size: 11px;
+      line-height: 13px;
+      padding-left: 55px;
+      padding-right: 55px;
+
+      .logo {
+        transform: translateY(69%);
+        width: 201px;
+      }
+    }
+
+    .flowerone,
+    .flowertwo,
+    .flowerthree {
+      width: 70px;
+      height: auto;
+    }
+
+    .flowerthree {
+      transform: translate(70%, -40%);
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .flowers {
+    .description .logo {
+      transform: translateY(92%);
+      width: 180px;
+    }
   }
 }

@@ -3,6 +3,7 @@
   padding: 46px 54px 45px;
   background-image: url('../../assets/images/flowers-frame-bg.png');
   background-position: center;
+  background-repeat: no-repeat;
   background-size: contain;
 
   .title {
@@ -19,5 +20,59 @@
     color: #72a613;
     font-size: 100px;
     font-weight: 400;
+  }
+}
+
+@media (max-width: 1050px) {
+  .frame {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    padding-left: 57px;
+    padding-right: 57px;
+
+    .timer {
+      font-size: 75px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 21px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .frame {
+    max-width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    .timer {
+      font-size: 60px;
+    }
+
+    .title {
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .frame {
+    max-width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .timer {
+      font-size: 45px;
+    }
+
+    .title {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
   }
 }

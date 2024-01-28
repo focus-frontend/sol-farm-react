@@ -10,10 +10,16 @@
 
   .logo {
     display: block;
+    transition: transform 0.3s;
 
     img {
       width: 128px;
       height: 72.39px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s;
     }
   }
 
@@ -31,6 +37,55 @@
         color: #d8801c;
         transition: color 0.3s;
       }
+    }
+  }
+}
+
+@media (max-width: 1350px) {
+  .navbar {
+    padding-top: 8px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .navbar {
+    .btn {
+      padding: 15px 25px;
+      font-size: 24px;
+    }
+
+    .links {
+      gap: 0 40px;
+
+      .link {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1120px) {
+  .navbar {
+    padding-top: 4px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .container {
+    width: 100%;
+  }
+
+  .navbar {
+    height: 120px;
+    padding: 5px 5%;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    .links {
+      display: none;
     }
   }
 }

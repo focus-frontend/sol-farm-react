@@ -35,3 +35,61 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .nft {
+    padding: 40px 0;
+
+    .slider {
+      max-width: 540px;
+      height: 630px;
+      padding: 0 105px;
+    }
+
+    .slide .image {
+      width: 210px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .nft {
+    .slider {
+      max-width: 420px;
+      height: 545px;
+      padding: 0 69px;
+    }
+
+    .slide .image {
+      width: 180px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .nft {
+    .slider {
+      max-width: 370px;
+      height: 480px;
+      padding: 0 58px;
+    }
+
+    .slide .image {
+      width: 150px;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .nft {
+    .slider {
+      max-width: 325px;
+      height: 410px;
+      padding: 0 54px;
+    }
+
+    .slide .image {
+      width: 130px;
+    }
+  }
+}

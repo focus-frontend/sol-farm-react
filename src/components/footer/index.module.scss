@@ -10,3 +10,23 @@
     line-height: 27.3px;
   }
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 25px 0;
+
+    .copyright {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 508px) {
+  .footer {
+    padding: 15px 0;
+
+    .copyright {
+      font-size: 14px;
+    }
+  }
+}
