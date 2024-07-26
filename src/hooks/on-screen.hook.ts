@@ -12,7 +12,7 @@ const useOnScreen = () => {
       setIntersecting(entry.isIntersecting)
     })
   }, [])
-
+ 
   useEffect(() => {
     if (!ref.current) return
 
